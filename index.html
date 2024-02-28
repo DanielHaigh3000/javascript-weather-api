@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Weather <strong>API</strong></h1>
+      <div class="weather__container">
+        <div class="weather__type__container">
+          <h2>Main Desc</h2>
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" />
+          <h3>Secondary Desc</h3>
+        </div>
+        <div class="weather__info__container">
+          <h2>Current Weather In</h2>
+          <h3>City Name</h3>
+          <h3 class="weather__temp">Temp</h3>
+          <div class="weather__info__details">
+            <div class="weather__info__details--left">
+              <p>Feels Like: 0 &deg;C</p>
+              <p>Temp Low: 0 &deg;C</p>
+              <p>Temp High: 0 &deg;C</p>
+            </div>
+            <div class="weather__info__details--right">
+              <p>Clouds: 0%</p>
+              <p>Wind Speed: 0 m/s</p>
+              <p>Humidity: 0%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="scripts.js"></script>
+  </body>
+</html>
