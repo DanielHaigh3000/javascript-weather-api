@@ -1,0 +1,1 @@
+# JavaScript weather API project
